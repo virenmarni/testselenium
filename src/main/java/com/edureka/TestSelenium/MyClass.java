@@ -16,12 +16,11 @@ public class MyClass {
     	//System.setProperty("webdriver.gecko.driver","/Users/robertoflores/Documents/selenium-java-3.141.59/Software/geckodriver");
 		//WebDriver driver = new FirefoxDriver();
 		
-		String baseUrl = "http://34.125.109.46:8080/ProjectEdureka/website/";
-		System.out.println("String baseUrl");
+		String baseUrl = "http://35.223.116.213:9090/helloedureka";
+		System.out.println("String baseUrl" + baseUrl);
 		System.setProperty("webdriver.chrome.driver","/home/edureka/Downloads/chromedriver");
 		System.setProperty("webdriver.chrome.logfile", "chromedriver.log");
 	    System.setProperty("webdriver.chrome.verboseLogging", "true");
-		//System.setProperty("webdriver.chrome.driver","/Users/robertoflores/Documents/selenium-java-3.141.59/Software/chromedriver");
 		System.out.println("		System.setProperty!!");
 		ChromeOptions chromeOptions = new ChromeOptions(); 
 		System.out.println("headless!!");
